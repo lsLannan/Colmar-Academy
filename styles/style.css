@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgba(243,245,245,255);
+    color: rgb(122, 122, 122);
 }
 
 .container {
@@ -16,6 +17,11 @@ body {
     justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.b {
+    color: black;
+    font-weight: bold;
 }
 
 .logo {
@@ -87,8 +93,12 @@ header {
     margin: 32px 24px;
 }
 
+.practicing {
+    margin: 34px 24px;;
+}
+
 .box {
-    border: 1px solid blue;
+    border: 1px solid lightgray;
     display: flex;
     flex-direction: row;
 }
@@ -105,11 +115,13 @@ header {
 .box img {
     width: 35%;
     height: auto;
+    padding: 16px;
 }
 
 .subheading {
     text-align: center;
     font-size: 40px;
+    color: black;
 }
 
 /* START LEARNING */
@@ -139,12 +151,21 @@ header {
     width: 100%;
 }
 
+.course-title {
+    color: black;
+    font-weight: bold;
+}
+
 /* THESIS */
 
 .thesis {
     /*border: 1px solid hotpink;*/
     flex-direction: column;
     padding: 0 24px;
+}
+
+.thesis-box {
+    padding-bottom: 100px;
 }
 
 video {
